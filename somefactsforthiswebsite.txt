@@ -1,0 +1,9 @@
+In blogs and thoughts page:
+1. all the blogs will contain those similar patterns:
+a) blog number(eg. blog one, blog two)
+b) blog type (eg. knowledge-based or my thought-based)
+c) blog topic (eg. about xyz on abc etc etc)
+d) blog date 
+e) blog time
+f) blog day (eg. monday)
+g) read now button.
