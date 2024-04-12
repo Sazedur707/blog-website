@@ -1,0 +1,431 @@
+
+
+* {
+    transition: 0.3s;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: monospace;
+    background: url(img/sigurebg.jpg);
+    color: white;
+    height: fit-content;
+    /* background: no-repeat; */
+    background-attachment: fixed;
+
+}
+
+
+
+/* navigation bar starts here */
+.navbar {
+    /* flex items */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* position items */
+    position: absolute;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+
+    /* others */
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.1);
+
+    /* animation */
+    animation-name: get-appeared-like-sigurejp;
+    animation-duration: 3s;
+
+}
+
+.navbar li {
+    list-style: none;
+    /* border: 2px solid yellow; */
+    margin: 2px 18px;
+    font-size: 20px;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+
+    /* custom font */
+    font-family: Tahoma, Geneva, sans-serif;
+    font-variant: small-caps;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 1.8px;
+    font-size: 22px;
+    word-spacing: 1.2px;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.navbar a:hover {
+    color: rgb(184, 184, 184);
+    transition: 0.1s;
+}
+
+.navbar a:active {
+    color: darkgray;
+}
+
+.navbar a:current {
+    color: green;
+}
+
+.logo {
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 15px;
+
+}
+
+/* navigation bar ends here  */
+
+
+
+/* main-body-option starts here  */
+.main-option-body {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+    animation-name: get-appeared-like-sigurejp;
+    animation-duration: 3s;
+}
+
+.main-option-body h2 {
+    font-size: 40px;
+}
+
+.option-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border:2px solid blue; */
+    text-align: center;
+}
+
+.option-body button {
+    height: 46px;
+    width: 261px;
+    font-size: 17px;
+    font-family: monospace;
+    margin: 5px 1px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(209, 209, 209);
+}
+
+.option-body button:hover {
+    background-color: rgb(116, 115, 115);
+    transition: 0.3s;
+}
+
+/* main-option-body ends here  */
+
+/* copyright-section starts here  */
+.copyright-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    /* border: 1px solid red; */
+    /* padding: 3px 23px; */
+    animation-name: get-appeared-like-sigurejp;
+    animation-duration: 3s;
+
+}
+
+.copyright-section a {
+    text-decoration: none;
+    cursor: text;
+    font-size: 75%;
+    letter-spacing: .2em;
+    color: #b9b6b6;
+}
+
+/* copyright-section ends here  */
+
+
+/* about-me-section starts here  */
+.about-me-section {
+    /* border: 2px solid red; */
+    margin-top: 80px;
+    padding: 0px 39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    animation-name: get-appeared-like-sigurejp;
+    animation-duration: 3s;
+
+}
+
+.about-me-image {
+    border: none;
+}
+
+.about-me-image img {
+    height: 364px;
+}
+
+.about-me-writing {
+    text-shadow: 1px 1px 1px black;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 5px 20px;
+    background-color: rgb(0 139 255 / 11%);
+    margin-left: 17px;
+}
+
+/* contact-me-section starts here  */
+.contact-me-section {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    /* flex-wrap: wrap; */
+    animation-name: get-appeared-like-sigurejp;
+    animation-duration: 3s;
+
+}
+
+.contact-details {
+    background-color: rgb(0 139 255 / 11%);
+    width: 520px;
+    height: 505px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 2px solid yellow; */
+    padding: 50px 20px;
+    border: 1px solid black;
+
+}
+
+.send-me-a-message {
+    background-color: rgb(0 139 255 / 11%);
+    width: 520px;
+    height: 500px;
+    padding: 50px 20px;
+    font-size: 18px;
+    /* border: 2px solid yellow; */
+    border: 1px solid black;
+
+}
+
+.send-me-a-message form {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-evenly;
+
+
+}
+
+.send-me-a-message input {
+    font-size: 16px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+    font-family: monospace;
+}
+
+.send-me-a-message textarea {
+    font-size: 16px;
+    /* height: 30px; */
+    border-radius: 11px;
+    border: none;
+    padding: 5px 10px;
+    font-family: monospace;
+}
+
+.send-me-a-message button {
+    font-size: 16px;
+    padding: 8px 10px;
+    border: none;
+    font-family: monospace;
+    cursor: pointer;
+    border: 1px solid rgb(116, 115, 115);
+    background: none;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 1px 1px 0px black;
+
+}
+
+.send-me-a-message button:hover {
+    background: linear-gradient(black -175%, white 120%);
+    color: black;
+    transition: 0.01s;
+    text-shadow: none;
+
+}
+
+/* contact-me-section ends here  */
+
+/* blog-list-section starts here  */
+.blog-list-section {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: fit-content;
+    padding: 6px 5px;
+    animation-name: get-appeared-like-sigurejp;
+    animation-duration: 3s;
+}
+.blog-box h3{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-variant: small-caps;
+
+}
+.blog-box h4{
+    color: gainsboro;
+    font-size: 10px;
+}
+.blog-box {
+    margin: 20px 15px;
+    height: 450px;
+    width: 395px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    background: rgb(3 25 38 / 54%);
+    font-size: 20px;
+    text-align: left;
+    align-items: left;
+    box-shadow: 1px 1px 10px black;
+
+}
+.blog-box-content{
+    padding-left: 13px;
+    padding-top: 10px;
+}
+.blog-box-content p{
+    font-size: 14px;
+    margin: 20px 0px;
+}
+
+.blog-box button {
+    background: none;
+    border: 1px solid black;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.blog-box button:hover {
+    background-color: gainsboro;
+    color: black;
+    text-shadow: none;
+}
+
+/* .blog-list-section ends here  */
+
+/* story-list-section starts here  */
+.story-list-section {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    height: 700px;
+    padding: 6px 12px;
+    animation-name: get-appeared-like-sigurejp;
+    animation-duration: 3s;
+}
+
+.story-box {
+    margin: 20px 15px;
+    height: 460px;
+    width: 395px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    background: rgb(3 25 38 / 54%);
+    font-size: 20px;
+    text-align: left;
+    align-items: left;
+    box-shadow: 1px 1px 10px black;
+
+}
+.story-box-content{
+    padding-left: 13px;
+    padding-top: 10px;
+}
+
+.story-box button {
+    background: none;
+    border: 1px solid black;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.story-box button:hover {
+    background-color: gainsboro;
+    color: black;
+    text-shadow: none;
+}
+
+.story-box p {
+    font-size: 14px;
+}
+
+/* story starts here */
+.story {
+    margin-top: 80px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation-name: get-appeared-like-sigurejp;
+    animation-duration: 3s;
+}
+
+@keyframes get-appeared-like-sigurejp {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.storyy {
+    background: rgb(3 25 38 / 54%);
+    /* border: 1px solid yellow; */
+    width: 700px;
+    padding: 40px 30px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.story p {
+    font-size: 16px;
+}

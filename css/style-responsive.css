@@ -1,0 +1,70 @@
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 1100px){
+        *{
+            margin: 0;
+        }
+    body{
+        background: url(img/sigurebgg.jpg);
+        background-attachment: fixed;
+
+    }
+    /* .about-me-section starts here  */
+    .about-me-section{
+        padding: 0px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-me-writing{
+        padding: 3px 13px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    /* .about-me-section ends here  */
+
+    /* contact-me-section starts here  */
+    .contact-me-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 1050px;
+        font-size: 16px;
+    }
+    .contact-details{
+        width: 367px;
+        font-size: 16px;
+        height: 300px;
+        padding: 50px 15px;
+    }
+    .send-me-a-message{
+        width: 367px;
+        font-size: 16px;
+        padding: 50px 15px;
+    }
+    /* blog-list-section starts here  */
+    .blog-list-section{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: fit-content;
+    }
+    .blog-box{
+        margin: 15px 0px;
+    }
+    /* story starts here  */
+    .storyy{
+        width: fit-content;
+    }
+    .storyy h1{
+        font-size: 37px;
+    }
+    .storyy p{
+        font-size: 18px;
+        font-weight: lighter;
+    }
+
+}
